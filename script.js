@@ -94,7 +94,7 @@ async function scheduleSunrise() {
         sunriseTime.setHours(selectedTime);
     }
 
-    sunriseEl.style.transition = `${10000}ms background-color ease-in-out`;
+    sunriseEl.style.transition = `${sunriseDuration}ms background-color ease-in-out`;
 
     setTimeout(() => {
         sunriseEl.style.backgroundColor = selectedStar.color;
