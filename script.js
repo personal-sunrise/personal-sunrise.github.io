@@ -26,6 +26,7 @@ const timesEl = document.getElementById("times");
 const starsEl = document.getElementById("stars");
 const sidebarEl = document.getElementById("sidebar");
 const startEl = document.getElementById("start");
+const exitEl = document.getElementById("exit");
 let selectedTime = 6;
 let selectedStar = stars.find(star => star.name === 'Arcturus');
 
@@ -128,6 +129,7 @@ async function scheduleSunrise() {
     })
 
     startEl.addEventListener('click', scheduleSunrise);
+    exitEl.addEventListener('click', () => window.location.reload());
 
     updateSelectedTime();
     updateSelectedStar();

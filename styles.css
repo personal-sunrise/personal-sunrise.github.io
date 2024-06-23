@@ -120,4 +120,20 @@ p {
     padding-block: 0.5em;
     padding-inline: 2em;
     align-self: flex-end;
+    cursor: pointer;
+    transition: 500ms ease-in-out;
+}
+
+#start:hover {
+    background: white;
+    color: black;
+}
+
+#exit {
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #777777;
+    cursor: pointer;
+    padding: 4em;
 }
