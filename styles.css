@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Lora", "Times New Roman", serif;
+}
+
+body {
+    height: 100vh;
+}
+
+body > div {
+    height: 100%;
+}
+
+#logo {
+    height: 2.5em;
+}
+
+#sunrise {
+    display: none;
+}
+
+#app {
+    display: flex;
+    align-items: stretch;
+}
+
+#menu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4em;
+    flex-basis: 80%;
+    background: black;
+    color: white;
+    padding-block: 4em;
+    padding-inline: 2em;
+}
+
+#sidebar {
+    flex-basis: 20%;
+    transition: 1s background-color ease-in-out;
+}
+
+#menu-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5em;
+}
+
+h1 {
+    font-style: italic;
+}
+
+p {
+    font-size: 1.25em;
+    width: 24em;
+}
+
+#times, #stars {
+    display: flex;
+    column-gap: 1em;
+}
+
+.time {
+    padding-block: 0.5em;
+    padding-inline: 1em;
+    border: 1px solid white;
+    font-style: italic;
+}
+
+.star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 0.5em;
+    padding-block: 1em;
+    padding-inline: 0.5em;
+    width: 5em;
+}
+
+.star, .time {
+    user-select: none;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.star.selected, .time.selected {
+    background: white;
+    color: black;
+}
+
+.star.selected:hover, .time.selected:hover {
+    background: #EEEEEE;
+}
+
+.star:hover, .time:hover {
+    background: #111111;
+}
+
+.star-icon {
+    width: 1em;
+    height: 1em;
+    border-radius: 9999px;
+}
+
+.star-name {
+    font-style: italic;
+}
+
+#start {
+    border: 1px solid white;
+    font-style: italic;
+    outline: none;
+    color: white;
+    background: transparent;
+    font-size: 1.25em;
+    padding-block: 0.5em;
+    padding-inline: 2em;
+    align-self: flex-end;
+}
