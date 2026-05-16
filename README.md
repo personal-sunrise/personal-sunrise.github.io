@@ -1,6 +1,6 @@
 ![Menu Screenshot](https://raw.githubusercontent.com/anafro/anafro/refs/heads/main/Screenshots/Personal-Sunrise-Index.png)
 
-# 🌅 personal-sunrise.github.io
+# 🌅 Personal Sunrise
 
 > Which star would you like to wake up under?
 
