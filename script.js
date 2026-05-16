@@ -90,7 +90,7 @@ function updateSelectedStar() {
         }
     });
 
-    menuEl.style.boxShadow = `inset 0 -100vw 100vw -70vw ${selectedStar.color}11, inset 0 -15vw 15vw -15vw ${selectedStar.color}99, inset 0 -1vw 1vw -1vw ${selectedStar.color}, inset 0 -.25vw .25vw -1vw #ffffff, inset 0 -3.25vw 3.25vw -5vw #ffffff, inset 0 -3.25vw 3.25vw -3.25vw #ffffff`;
+    menuEl.style.boxShadow = `inset 0 -100vh 100vh -70vh ${selectedStar.color}11, inset 0 -15vh 15vh -15vh ${selectedStar.color}99, inset 0 -1vh 1vh -1vh ${selectedStar.color}, inset 0 -.25vh .25vh -1vh #ffffff, inset 0 -3.25vh 3.25vh -5vh #ffffff, inset 0 -3.25vh 3.25vh -3.25vh #ffffff`;
 }
 
 async function scheduleSunrise() {
