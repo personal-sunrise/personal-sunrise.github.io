@@ -12,16 +12,11 @@
 }
 
 html {
-    font-size: clamp(1.4rem, 1vw, 2rem);
+    font-size: clamp(0.8rem, 2vw, 2rem);
 }
 
 body {
-    height: 100vh;
     contain: paint;
-}
-
-body > div {
-    height: 100%;
 }
 
 #logo {
@@ -38,6 +33,7 @@ body > div {
     display: flex;
     align-items: stretch;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 #menu {
@@ -82,7 +78,7 @@ h1 {
 
 #description {
     text-align: center;
-    width: 28rem;
+    max-width: 28rem;
     align-self: center;
     margin-block-end: 2rem;
 }
